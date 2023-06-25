@@ -1,5 +1,5 @@
 # Crafted Creations
-Welcome to the Crafted Creations ReadMe.
+Welcome to the Crafted Creations ReadMe.\
 Here we will talk about how we decided to code stuff and also what this website and repository is here for.
 
 # Coding Standards  
