@@ -1,2 +1,9 @@
-<h1>Welcome to my Minecraft website</h1>
-<p>This website is here to show of some of my cool minecraft projects</p>
+<link rel="stylesheet" type="text/css" href="/src/main.css"> 
+<script>
+    import Navbar from "$lib/navbar.svelte";
+</script>
+
+<main>
+    <Navbar />
+    <slot />
+</main>
