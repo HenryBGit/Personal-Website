@@ -1,11 +1,11 @@
 <nav>
     <ul>
         <div class="container">
-            <li><a href="/"><img src="\Images\Pixel.png" class="logo-img" alt="Pixel Crafters Logo"></a></li>
+            <li><a href="/"><img src="/images/Pixel.png" class="logo-img" alt="Pixel Crafters Logo"></a></li>
             <!-- Clickable link on whole container need to talk to adon about this -->
                 <div class="text">
                     <li>
-                        <a href="/games"> Games
+                        <a href="/worlds"> Worlds
                             <div class="border"></div>
                         </a>                        
                     </li>
@@ -48,9 +48,9 @@ nav li a {
     transition: color ease-in 0.35s;
 }
 nav li a:hover {
-    color: #afdbf6;
+    color: #E5E4E2;
 }
-nav li a img {
+nav img {
     padding-top: 3%;
     padding-left: 7%;
     width: 200px;
@@ -58,7 +58,7 @@ nav li a img {
     overflow: hidden;
     border-radius: 25px;
 }
-nav li a img:hover {
+nav img:hover {
     opacity: 0.7;
 }
 
@@ -91,7 +91,7 @@ i:hover {
 .border{
   height:2px;
   width:0;
-  background:red;
+  background:white;
   transition: width .3s linear;
 }
 /*Positioning the text*/
